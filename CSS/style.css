@@ -28,4 +28,29 @@
     border-radius: 5px;
     
 }
-
+/* Header-section */
+.header-container{
+    background-image: url(../assets/Hero-bg.png);
+    margin-right: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header-tex{
+    text-align: center;
+    
+}
+.header-tex p{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.header-tex button{
+padding: 20px 60px;
+background-color: black;
+color: white;
+border-radius: 5px;
+}
