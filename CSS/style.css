@@ -28,6 +28,7 @@
     border-radius: 5px;
     
 }
+
 /* Header-section */
 .header-container{
     background-image: url(../assets/Hero-bg.png);
@@ -53,4 +54,55 @@ padding: 20px 60px;
 background-color: black;
 color: white;
 border-radius: 5px;
+}
+/* Main-section */
+.development-title{
+    margin-top: 50px;
+    max-width:980px ;
+    height: 970px;
+    /* border: 4px dashed greenyellow; */
+    
+    background-color: #FAFAFB;
+    /* display: flex;
+ flex-direction: column;justify-content: center;
+ align-items: center;
+   width: 50%;
+   margin: 0 auto; */
+   margin-left: 270px;
+}
+
+.development-text-tile {
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+      width: 50%;
+      margin: 0 auto;
+}
+.development-text-tile p{
+    margin-top: 10px;
+}
+.card-contain{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.development-content{
+    margin-top: 45px;
+}
+.text-content{
+width: 50%;
+height: 215px; 
+margin-top: 70px;
+}
+.text-content  p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-content {
+    width: 250;
+    height: 215px; 
+    
+}
+.text-content button{
+   padding: 10px 22px; 
 }
