@@ -33,19 +33,21 @@
 }
 .header-tex{
     text-align: center;
-    
+
 }
+
 .header-tex p{
     width: 50%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 28px;
 }
-.header-tex button{
+.header-tex button a{
 padding: 20px 60px;
 background-color: black;
 color: white;
 border-radius: 8px;
+text-decoration: none;
 }
 /* Main-section */
 .development-title{
@@ -124,6 +126,7 @@ margin-top: 70px;
     width: 1140px;
     height: 460px;
     margin-left: 150px;
+    margin-bottom: 150px;
     /* border: 5px solid greenyellow; */
 }
 .current-heading{
@@ -170,8 +173,55 @@ margin-bottom: 20px;
 .card-2 p,h1,img{
 
     margin-bottom: 20px;
+    } .card-3 p,h1,img{
+   margin-bottom: 20px;
     }
-    .card-3 p,h1,img{
-
-        margin-bottom: 20px;
+    /* supot section */
+ .suport-section{
+       width: 1140px;
+      height: 315px;
+      margin-left: 150px;
+      background-image: url(../assets/handshake.jpg);
+      border-radius: 10px;
+      text-align: center;
         }
+   .suport-content{
+    padding: 64px 48px 64px 48px;
+   }
+.suport-description{
+    margin-bottom: 35px;
+    
+}
+
+.input{
+    width: 540px;
+    height: 55px;
+    border-radius: 15px;
+}
+.submit-btn{
+    width: 120px;
+    height: 55px;
+    border-radius: 15px;
+    
+}
+.submit-btn a{
+    text-decoration: none;
+}
+.footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F8F8;
+    
+}
+footer p{
+    padding-left: 20px;
+}
+#icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 20px;
+    margin-top: 20px;
+}
