@@ -1,12 +1,4 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
 
-.azeret-mono-uniquifier{
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
 
 *{
     box-sizing: border-box;
@@ -128,3 +120,58 @@ margin-top: 70px;
     width: 1070px;
     height: 550px;
 }
+.curernt-caontain{
+    width: 1140px;
+    height: 460px;
+    margin-left: 150px;
+    /* border: 5px solid greenyellow; */
+}
+.current-heading{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+.current-card{
+    display: flex;
+    gap: 25px;
+    justify-content:space-evenly ;
+    margin-top: 50px;
+}
+.card-1{
+   background-color: #FFF6F4; 
+   border-radius: 10px;
+   width: 360px;
+   height: 300px;
+   padding: 40px;
+}
+.card-2{
+    background-color: #F2F6FE;
+    border-radius: 10px;
+    width: 360px;
+   height: 300px;
+   padding: 40px;
+}
+.card-3{
+    background-color: #FFFDF2;
+    border-radius: 10px;
+    width: 360px;
+   height: 300px;
+   padding: 40px;
+}
+.card-1 p,h1,img{
+
+margin-bottom: 20px;
+}
+.card-2 p,h1,img{
+
+    margin-bottom: 20px;
+    }
+    .card-3 p,h1,img{
+
+        margin-bottom: 20px;
+        }
